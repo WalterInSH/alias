@@ -22,3 +22,6 @@ alias grep='grep --color=auto'
 
 # some git aliases
 alias gitp='git pull --rebase'
+
+# ctags
+alias ctagsall='ctags -R -f .'
