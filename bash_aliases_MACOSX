@@ -1,0 +1,14 @@
+alias ..='cd ..'
+alias _='cd -'
+alias ls='ls -hF -G --color'  # add colors for filetype recognition
+alias ll='ls -l -h'
+alias la='ls -A'
+alias du='du -kh' 
+alias df='df -kTh'
+
+# Colored output in grep
+alias grep='grep --color=auto'
+
+# Making solarized work with tmux
+alias tmux="TERM=screen-256color-bce tmux"
+
