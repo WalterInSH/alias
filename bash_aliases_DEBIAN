@@ -1,10 +1,5 @@
 # This's a personal configuration. I use debian system.
 
-# If you want to add this config to your system. just paste the shell below into ~/.bashrc
-# if [ -f ~/.bash_aliases ]; then
-#     . ~/.bash_aliases
-# fi
-
 # some ls aliases
 alias ls='ls --color=auto'
 alias ll='ls -lh'
