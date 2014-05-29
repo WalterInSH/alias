@@ -15,3 +15,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 # some git aliases
 alias gitp='git pull --rebase'
 alias gitst='git status'
+alias gitcl='git clone'
+alias git1c='git diff HEAD HEAD~1'
