@@ -1,4 +1,5 @@
 alias ..='cd ..'
+alias ...='cd ../../'
 alias _='cd -'
 alias ls='ls -hF -G'  # add colors for filetype recognition
 alias ll='ls -l -h'
