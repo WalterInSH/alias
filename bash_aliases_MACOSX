@@ -1,4 +1,5 @@
 alias ..='cd ..'
+alias ...='cd ../../'
 alias _='cd -'
 alias ls='ls -hF -G'  # add colors for filetype recognition
 alias ll='ls -l -h'
@@ -16,5 +17,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 alias gitp='git pull --rebase'
 alias gitst='git status'
 alias gitcl='git clone'
-alias git1c='git diff HEAD HEAD~1'
+alias git1diff='git diff HEAD HEAD~1'
 alias gitcmt='git commit'
+
+# rethinkdb
+alias rethinkdb.start='launchctl load /usr/local/opt/rethinkdb/homebrew.mxcl.rethinkdb.plist'
+alias rethinkdb.stop='launchctl unload /usr/local/opt/rethinkdb/homebrew.mxcl.rethinkdb.plist'
