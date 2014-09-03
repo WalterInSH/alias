@@ -19,7 +19,8 @@ alias grep='grep --color=auto'
 alias gitp='git pull --rebase'
 alias gitst='git status'
 alias gitcl='git clone'
-alias git1c='git diff HEAD HEAD~1'
+alias git1diff='git diff HEAD HEAD~1'
+alias gitcmt='git commit'
 
 # ctags
 alias ctagsall='ctags -R -f .'
