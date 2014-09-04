@@ -19,6 +19,10 @@ alias gitst='git status'
 alias gitcl='git clone'
 alias git1c='git diff HEAD HEAD~1'
 
-# rethinkdb
-alias rethinkdb.start='launchctl load /usr/local/opt/rethinkdb/homebrew.mxcl.rethinkdb.plist'
-alias rethinkdb.stop='launchctl unload /usr/local/opt/rethinkdb/homebrew.mxcl.rethinkdb.plist'
+# mysql
+alias mysql.start='launchctl load -w /usr/local/opt/mysql/homebrew.mxcl.mysql.plist'
+alias mysql.stop='launchctl unload -w /usr/local/opt/mysql/homebrew.mxcl.mysql.plist'
+
+# redis
+alias redis.start='launchctl load -w /usr/local/opt/redis/homebrew.mxcl.redis.plist'
+alias redis.stop='launchctl unload -w /usr/local/opt/redis/homebrew.mxcl.redis.plist'
