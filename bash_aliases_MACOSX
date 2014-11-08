@@ -19,11 +19,3 @@ alias gitst='git status'
 alias gitcl='git clone'
 alias git1diff='git diff HEAD HEAD~1'
 alias gitcmt='git commit'
-
-# mysql
-alias mysql.start='launchctl load -w /usr/local/opt/mysql/homebrew.mxcl.mysql.plist'
-alias mysql.stop='launchctl unload -w /usr/local/opt/mysql/homebrew.mxcl.mysql.plist'
-
-# redis
-alias redis.start='launchctl load -w /usr/local/opt/redis/homebrew.mxcl.redis.plist'
-alias redis.stop='launchctl unload -w /usr/local/opt/redis/homebrew.mxcl.redis.plist'
