@@ -24,3 +24,7 @@ alias gitcmt='git commit'
 
 # ctags
 alias ctagsall='ctags -R -f .'
+
+#xclip
+alias xclip='xclip -selection c'
+alias xclipf='xclip -selection c -i'
