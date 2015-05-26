@@ -1,0 +1,28 @@
+#JAVA
+export JAVA_HOME=/usr/local/java/jdk1.7.0_67
+export JRE_HOME=/usr/local/java/jdk1.7.0_67/jre
+export PATH=$PATH:/usr/local/java/jdk1.7.0_67/bin
+
+#Convenient tools
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+if [ -f ~/.bash_script ]; then
+    . ~/.bash_script
+fi
+
+#Git bash completion
+source ~/project/git-bash-completion/git-completion.bash
+
+#Maven bash completion
+source ~/project/maven-bash-completion/bash_completion.bash
+
+#Fuzzy bash completion
+source /home/walter/project/fuzzy_bash_completion/fuzzy_bash_completion
+fuzzy_replace_filedir_xspec
+fuzzy_setup_for_command cd
+fuzzy_setup_for_command ls
+fuzzy_setup_for_command rm
+fuzzy_setup_for_command mv
+fuzzy_setup_for_command vim
