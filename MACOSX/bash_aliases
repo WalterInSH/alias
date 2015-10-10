@@ -19,3 +19,6 @@ alias gitst='git status'
 alias gitcl='git clone'
 alias git1diff='git diff HEAD HEAD~1'
 alias gitcmt='git commit'
+
+# proxychains
+alias proxychains='proxychains4'
