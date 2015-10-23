@@ -22,3 +22,6 @@ alias gitcmt='git commit'
 
 # proxychains
 alias proxychains='proxychains4'
+
+#hash
+alias sha1='openssl sha1'
