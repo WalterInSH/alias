@@ -1,3 +1,12 @@
 function mkdircd () { 
     mkdir -p "$@" && eval cd "\"\$$#\""; 
 }
+
+function delall () {
+    if [ ! -z "$1" ]
+    then
+        find . -type f -name "$1" -ls -delete
+    else
+        echo "please specify a file pattern"
+    fi
+}
