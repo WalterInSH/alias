@@ -10,3 +10,11 @@ function delall () {
         echo "please specify a file pattern"
     fi
 }
+function grepuncom () {
+    if [ ! -z "$1" ]
+    then
+        grep '^[^#]' "$1"
+    else
+        echo "please specify a file"
+    fi 
+}
