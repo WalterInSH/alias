@@ -20,6 +20,7 @@ alias gitcl='git clone'
 alias git1diff='git diff HEAD HEAD~1'
 alias gitcmt='git commit'
 alias gitpo='git push origin'
+alias gitab='git branch -a'
 
 # proxychains
 alias proxychains='proxychains4'
