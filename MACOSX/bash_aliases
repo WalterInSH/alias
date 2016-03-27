@@ -33,4 +33,4 @@ alias pbc='pbcopy'
 alias pbp='pbpaste'
 
 #homebrew
-alias brew='proxychains brew'
+alias brewp='proxychains brew'
