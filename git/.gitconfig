@@ -1,0 +1,6 @@
+[alias]
+        merge-to = "!gitmergeto() { export tmp_branch=`git branch | grep '* ' | tr -d '* '` && git checkout $1 && git merge $tmp_branch && git checkout $tmp_branch; unset tmp_branch; }; gitmergeto"
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = Walter
+	email = walterinsh@icloud.com
