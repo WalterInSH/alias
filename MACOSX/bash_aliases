@@ -22,6 +22,7 @@ alias gitdfile='git diff --name-only'
 alias gitcmt='git commit'
 alias gitpo='git push origin'
 alias gitab='git branch -a'
+alias cat='pygmentize -O style=monokai -f console256 -g'
 
 # proxychains
 alias proxychains='proxychains4'
