@@ -18,3 +18,11 @@ function grepuncom () {
         echo "please specify a file"
     fi 
 }
+
+function swapfiles()
+{
+    local TMPFILE=tmp.$$
+    mv "$1" $TMPFILE
+    mv "$2" "$1"
+    mv $TMPFILE "$2"
+}
