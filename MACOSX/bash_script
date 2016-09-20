@@ -26,3 +26,13 @@ function swapfiles()
     mv "$2" "$1"
     mv $TMPFILE "$2"
 }
+
+function backhome () {
+    scselect Automatic
+    networksetup -setairportpower en0 on
+}
+
+function gowork () {
+    scselect iqiyi
+    networksetup -setairportpower en0 off
+}
