@@ -24,6 +24,7 @@ alias gitpo='git push origin'
 alias gitab='git branch -a'
 alias gitsth='git stash'
 alias gitsthap='git stash apply'
+alias gitprune='git remote prune origin'
 
 #pygmentize
 alias catfmt='pygmentize -O style=monokai -f console256 -g'
