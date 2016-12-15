@@ -6,6 +6,7 @@ alias ll='ls -l -h'
 alias la='ls -A'
 alias du='du -kh' 
 alias df='df -kTh'
+alias head='head -n 20'
 
 # Colored output in grep
 alias grep='grep --color=auto'
