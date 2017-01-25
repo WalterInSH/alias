@@ -6,3 +6,5 @@ if [ -f ~/.bash_script ]; then
     . ~/.bash_script
 fi
 source /users/zhangkai/Projects/git-bash-completion/git-completion.bash
+
+export PATH=/usr/local/bin:$PATH
