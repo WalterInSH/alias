@@ -35,6 +35,7 @@ alias proxychains='proxychains4'
 
 #hash
 alias sha1='openssl sha1'
+alias sha256='openssl sha1 -a 256'
 alias md5='md5 -r'
 
 #clipboard
