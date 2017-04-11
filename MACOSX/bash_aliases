@@ -9,7 +9,7 @@ alias df='df -kh'
 alias head='head -n 20'
 
 # Colored output in grep
-alias grep='grep --color=auto'
+alias grepc='grep --color=auto'
 
 # Making solarized work with tmux
 alias tmux="TERM=screen-256color-bce tmux"

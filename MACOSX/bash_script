@@ -36,3 +36,16 @@ function gowork () {
     scselect iqiyi
     networksetup -setairportpower en0 off
 }
+
+ip2long(){
+    declare -i a b c d;
+    IFS=. read a b c d <<<"$1";
+    echo "$(((a<<24)+(b<<16)+(c<<8)+d))";
+}
+
+long2ip(){
+    declare -i a=$((~(-1<<8))) b=$1; 
+    set -- "$((b>>24&a))" "$((b>>16&a))" "$((b>>8&a))" "$((b&a))";
+    local IFS=.;          
+    echo "$*";
+}
