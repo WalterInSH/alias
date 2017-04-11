@@ -44,3 +44,6 @@ alias pbp='pbpaste'
 
 #homebrew
 alias brewp='proxychains brew'
+
+#drill
+alias drill='/usr/local/Cellar/apache-drill/1.10.0/bin/drill-embedded'
