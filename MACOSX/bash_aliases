@@ -47,3 +47,9 @@ alias brewp='proxychains brew'
 
 #drill
 alias drill='/usr/local/Cellar/apache-drill/1.10.0/bin/drill-embedded'
+
+#docker
+alias dockerrmall='docker rm $(docker ps -q -a)'
+
+#httpie
+alias https='http --verify=no'
