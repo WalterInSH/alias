@@ -49,3 +49,9 @@ long2ip(){
     local IFS=.;          
     echo "$*";
 }
+
+ssh() {
+    if command ssh "$@"; then
+        tabset Local
+    fi
+}

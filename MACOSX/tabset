@@ -1,8 +1,8 @@
 {
   "colors": {
-    "jy": "gold",
-    "sh": "orange",
-    "olap": "red",
+    "JY": "gold",
+    "SH": "orange",
+    "OLAP": "red",
     "local": "green"
   }
 }
