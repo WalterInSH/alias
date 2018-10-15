@@ -3,6 +3,8 @@
     "JY": "gold",
     "SH": "orange",
     "OLAP": "red",
-    "local": "green"
+    "BD": "orange",
+    "local": "green",
+    "HadoopTool": "gold"
   }
 }
